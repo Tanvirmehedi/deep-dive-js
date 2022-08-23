@@ -22,4 +22,4 @@ var conObj = Object();
 
 conObj.a = 50;
 
-console.log(conObj);
+console.log("new Object", conObj);
