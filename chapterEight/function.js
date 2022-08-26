@@ -1,5 +1,25 @@
-var date = new Date();
+function hisabNikas() {
+  var kola = 20;
+  var apple = 5;
 
-var year = date.getFullYear();
+  var kolaBiog = kola - 5;
 
-console.log(year);
+  var result = kolaBiog * apple;
+
+  console.log("Total Fruits : ", result);
+}
+
+hisabNikas();
+hisabNikas();
+hisabNikas();
+hisabNikas();
+hisabNikas();
+hisabNikas();
+hisabNikas();
+hisabNikas();
+hisabNikas();
+hisabNikas();
+
+for (var i = 1; i <= 10; i++) {
+  hisabNikas();
+}
